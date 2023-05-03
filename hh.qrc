@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="新前缀">
+    <file>AI资源/pdf.svg</file>
+    <file>AI资源/发送.svg</file>
+    <file>AI资源/火箭.svg</file>
+    <file>AI资源/气泡.svg</file>
+    <file>AI资源/清除数据库.svg</file>
+    <file>AI资源/任务进程.svg</file>
+    <file>AI资源/设置.svg</file>
+    <file>AI资源/随机用户.svg</file>
+    <file>AI资源/提示.svg</file>
+    <file>AI资源/退出.svg</file>
+    <file>AI资源/智慧大脑.svg</file>
+    <file>AI资源/资源.qrc</file>
+  </qresource>
+</RCC>
