@@ -195,7 +195,7 @@ border-radius:14px;</string>
    <property name="frameShadow">
     <enum>QFrame::Raised</enum>
    </property>
-   <widget class="PushButton" name="danao">
+   <widget class="QPushButton" name="danao">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -493,13 +493,6 @@ background-color: rgba(255, 255, 255, 0);</string>
   <zorder>pushButton_2</zorder>
   <zorder>label</zorder>
  </widget>
- <customwidgets>
-  <customwidget>
-   <class>PushButton</class>
-   <extends>QPushButton</extends>
-   <header>qfluentwidgets</header>
-  </customwidget>
- </customwidgets>
  <resources>
   <include location="AI.qrc"/>
  </resources>
