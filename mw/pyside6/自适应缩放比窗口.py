@@ -7,11 +7,12 @@ app = QApplication(sys.argv)
 # 检测屏幕缩放比
 screen = app.primaryScreen()
 scaling_factor = screen.logicalDotsPerInch() / 96.0
+print(scaling_factor)
 
 # 根据缩放比调整窗口和控件大小
 window = QMainWindow()
 window.setWindowTitle('自适应缩放窗口')
-window.resize(800 / scaling_factor, 800 / scaling_factor)
+window.resize(1000 / scaling_factor, 1000 / scaling_factor)
 
 central_widget = QWidget()
 layout = QVBoxLayout(central_widget)
