@@ -1,13 +1,13 @@
 import sys
 from PySide6.QtWidgets import QApplication, QMainWindow
 from PySide6.QtCore import QFile
-from mw.pyside6.aid import Ui_MainWindow
+from ai_widget import Ui_AIchat
 
 
 class MainWindow(QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
-        self.ui = Ui_MainWindow()
+        self.ui = Ui_AIchat()
         self.ui.setupUi(self)
 
 
